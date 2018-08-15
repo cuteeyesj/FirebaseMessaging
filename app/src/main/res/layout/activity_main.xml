@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="title"
+        />
+    <EditText
+        android:id="@+id/txt_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_title"
+        android:hint="message"/>
+    <EditText
+        android:id="@+id/txt_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_msg"
+        android:hint="time"/>
+    <Button
+        android:id="@+id/setNotif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set Notification"
+        android:layout_below="@id/txt_time"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/stopNotif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Notification"
+        android:layout_below="@id/setNotif"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

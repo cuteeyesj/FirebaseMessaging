@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "541955176811",
+    "firebase_url": "https://lecture2-a57b4.firebaseio.com",
+    "project_id": "lecture2-a57b4",
+    "storage_bucket": "lecture2-a57b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541955176811:android:3abe3f19cada0a16",
+        "android_client_info": {
+          "package_name": "org.itempire.lecture2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541955176811-08f66t3p09fgo1p1tf823fbm2mqdit4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.itempire.lecture2",
+            "certificate_hash": "c2b0fb9e577ee0ac238e4a9051c45f2dadfa108f"
+          }
+        },
+        {
+          "client_id": "541955176811-hutltdklljjntre8c01ujobkeqa59riv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1KUai_oYPsFd2IoPFe0r1cve2dRv4HVU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541955176811-hutltdklljjntre8c01ujobkeqa59riv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
